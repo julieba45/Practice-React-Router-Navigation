@@ -51,6 +51,9 @@ function App() {
         <Route path='/movies'>
           <Movies />
         </Route>
+        <Route path='/not-logged-in'>
+          <h1> You Must Be Logged In To Enter.</h1>
+        </Route>
         <Route>
           <h1>Page Not Found</h1>
         </Route>
